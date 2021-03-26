@@ -23,7 +23,7 @@ public class CityController {
     @Autowired
     private ICityService cs;
 
-    @GetMapping("/index.html")
+    @GetMapping("/index")
     public ModelAndView index(){
         ModelAndView mav = new ModelAndView();
         mav.setViewName("index");
